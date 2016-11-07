@@ -5,6 +5,6 @@ export default DS.Model.extend({
   date: DS.attr('date'),
   attend: DS.attr('attend'),
   body: DS.attr('body'),
-  meeting-pub: DS.attr('meeting-pub'),
+  meetingPub: DS.attr('meeting-pub'),
   location: DS.belongsTo('location', { async: true}),
 });
