@@ -2,6 +2,18 @@
 
 module.exports = function(environment) {
   var ENV = {
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self' 'unsafe-eval' *.googleapis.com maps.gstatic.com",
+      'font-src': "'self' fonts.gstatic.com",
+      'connect-src': "'self' maps.gstatic.com",
+      'img-src': "'self' *.googleapis.com maps.gstatic.com csi.gstatic.com",
+      'style-src': "'self' 'unsafe-inline' fonts.googleapis.com maps.gstatic.com"
+    },
+    googleMap: {
+      apiKey: 'AIzaSyCzMbwatYTHxhaVjfbqqjqGFevsgE_6gY4',
+      libraries: ['drawing', 'visualization']
+    },
     modulePrefix: 'dark-sky-finder',
     environment: environment,
     baseURL: '/',
@@ -18,13 +30,6 @@ module.exports = function(environment) {
       // when it is created
     }
   };
-
-  ENV.contentSecurityPolicy = {
-    'script-src': "'self' 'unsafe-eval' https://*.googleapis.com https://*.gstatic.com",
-       'img-src': "'self' https://*.googleapis.com https://*.gstatic.com",
-       'font-src': "'self' https://*.gstatic.com",
-       'style-src': "'self' 'unsafe-inline' https://*.googleapis.com"
-  }   
 
   if (environment === 'development') {
     ENV.myApiKey = process.env.apiKey;
