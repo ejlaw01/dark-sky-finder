@@ -8,6 +8,6 @@
 </div>
 <div class="location-display">
   {{#each model as |location|}}
-    {{location-tile model=location}}
+    {{location-tile location=location increaseScore="increaseScore" decreaseScore="decreaseScore"}}
   {{/each}}
 </div>
