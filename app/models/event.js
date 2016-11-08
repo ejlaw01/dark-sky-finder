@@ -1,10 +1,10 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  organizer: DS.attr('organizer'),
-  date: DS.attr('date'),
-  attend: DS.attr('attend'),
-  body: DS.attr('body'),
-  meetingPub: DS.attr('meeting-pub'),
-  location: DS.belongsTo('location', { async: true}),
+  // organizer: DS.attr(),
+  // date: DS.attr(),
+  // attend: DS.attr(),
+  // body: DS.attr(),
+  // meeting-pub: DS.attr(),
+  // location: DS.belongsTo('location', { async: true}),
 });

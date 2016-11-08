@@ -1,6 +1,4 @@
-
-{{skyglow-map}}
-
-<div class="weather">
-
+{{weather-api getWeather="getWeather" location=location}}
+<div class="weather-results">
+  <h3>{{params.city}} weather is:{{results.main.temp}}</h3>
 </div>
