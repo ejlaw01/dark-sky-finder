@@ -10,3 +10,16 @@ button {
   height: 80vh;
   width:90vw;
 }
+
+.locationImage {
+  width: 40vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.location-display {
+  width: 50vw;
+  height: auto;
+  margin-left: 50%;
+}

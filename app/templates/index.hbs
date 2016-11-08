@@ -1,5 +1,10 @@
 {{g-maps name="my-map" lat=lat lng=lng zoom=zoom}}
 
 <div class="weather">
+</div>
 
+<div class="location-display">
+  {{#each model as |location|}}
+    {{location-tile model=location}}
+  {{/each}}
 </div>
