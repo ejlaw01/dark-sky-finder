@@ -1,5 +1,12 @@
 <ul>
-  {{#each model as |location|}}
-    <li>{{location.name}}</li>
-  {{/each}}
+  <h2>Current Weather</h2>
+  {{#each model as |city|}}
+  <li>{{city.description}}</li>
+  <!-- <li>{{city.pressure}}</li>
+  <li>{{city.humidity}}</li>
+  <li>{{city.temp_min}}</li>
+  <li>{{city.temp_max}}</li> -->
+{{/each}}
 </ul>
+
+{{#link-to 'index'}}Home{{/link-to}}
