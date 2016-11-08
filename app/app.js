@@ -8,9 +8,16 @@ let App;
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 App = Ember.Application.extend({
+
+  map: Ember.inject.service('google-map'),
+
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
-  Resolver
+  Resolver,
+  
+  ready: function() {
+    console.log('hi!');
+  }
 });
 
 loadInitializers(App, config.modulePrefix);

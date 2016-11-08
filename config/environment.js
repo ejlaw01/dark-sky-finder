@@ -20,11 +20,13 @@ module.exports = function(environment) {
   };
 
   ENV.contentSecurityPolicy = {
+    'default-src': 'none',
     'script-src': "'self' 'unsafe-eval' https://*.googleapis.com https://*.gstatic.com",
-       'img-src': "'self' https://*.googleapis.com https://*.gstatic.com",
-       'font-src': "'self' https://*.gstatic.com",
-       'style-src': "'self' 'unsafe-inline' https://*.googleapis.com"
-  }   
+    'img-src': "'self' https://*.googleapis.com https://*.gstatic.com",
+    'font-src': "'self' https://*.gstatic.com",
+    'connect-src': "'self' maps.gstatic.com",
+    'style-src': "'self' 'unsafe-inline' https://*.googleapis.com"
+  }
 
   if (environment === 'development') {
     ENV.myApiKey = process.env.apiKey;
