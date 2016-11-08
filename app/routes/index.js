@@ -8,8 +8,5 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    test() {
-      console.log(this.get(model()));
-    }
   }
 });

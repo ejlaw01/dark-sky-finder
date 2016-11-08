@@ -19,9 +19,12 @@ button {
 .locationImage {
   width: 40vw;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .location-display {
-  width: 55vw;
+  width: 50vw;
   height: auto;
+  margin-left: 50%;
 }
