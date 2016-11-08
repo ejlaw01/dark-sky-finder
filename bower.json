@@ -7,6 +7,7 @@
     "ember-qunit-notifications": "0.1.0",
     "firebase": "^3.0.0",
     "bootstrap": "~3.3.5",
-    "moment": "momentjs#^2.15.2"
+    "moment": "momentjs#^2.15.2",
+    "gmaps-for-apps": "^0.5.14"
   }
 }
