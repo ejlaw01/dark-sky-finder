@@ -1,0 +1,11 @@
+{ "locations": [{
+    "image": "https://c2.staticflickr.com/6/5262/5691271596_b5d6e10b49_b.jpg",
+    "name": "Portland: The Big Pink Observatory",
+    "directions": "Just off Burnside St., downtown: 111 SW 5th Ave. Take the elevator all the way to the 42nd floor.",
+    "lat": 45.5,
+    "lng": -122,
+    "locationPub": true,
+    "rating": 1,
+    "description": "You might not see all the stars you would out in the middle of Lake Detroit, but you can look at the stars while drinking excellent dry martinis."
+    }]
+  }

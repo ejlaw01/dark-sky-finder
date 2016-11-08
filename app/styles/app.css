@@ -15,3 +15,13 @@ button {
   height: 80vh;
   width: 80vw;
 }
+
+.locationImage {
+  width: 40vw;
+  height: auto;
+}
+
+.location-display {
+  width: 55vw;
+  height: auto;
+}
