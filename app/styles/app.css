@@ -24,8 +24,19 @@ button {
   margin-left: 50%;
 }
 
+
 .add-location-display {
   width: 50vw;
   height: auto;
   margin-left: 50%;
+}
+
+/*.na-tile {
+  height: 2480px;
+  width: 3030px;
+  opacity: 0.5;
+}*/
+
+.pnw-tile {
+  opacity: .3;
 }
