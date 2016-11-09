@@ -3,8 +3,8 @@
   <div class="weather-api">
     <form {{action 'getWeather' on='submit'}}>
       <div class="form-group">
-        <label for="city" placeholder="Enter the closest city to your event">City:</label>
-        {{input value=city id='city' required='required'}}
+        <label for="city">City:</label>
+        {{input value=city id='city' required='required' placeholder='Enter closest city to you'}}
       </div>
       <button class="btn weather-api-button">Submit</button>
     </form>
