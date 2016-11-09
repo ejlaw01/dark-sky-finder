@@ -23,3 +23,7 @@ button {
   height: auto;
   margin-left: 50%;
 }
+
+.tile {
+  opacity: 0.5;
+}
