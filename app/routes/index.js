@@ -8,27 +8,42 @@ export default Ember.Route.extend({
   },
   setupController: function(controller) {
     controller.setProperties({
-      lat: 45.5,
+      lat: 48,
       lng: -122,
-      zoom: 7,
+      zoom: 6,
       overlays: Ember.A([
+        // {
+        //   id: 'tile-test',         // Recommended
+        //   lat: 34,  // Required
+        //   lng: -126,        // Required
+        //   content: '<img class="na-tile" src="/images/North-America.png">',
+        //   layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+        //   verticalAlign: 'middle',      // middle | bottom
+        //   horizontalAlign: 'right', // left | right
+        //   horizontalOffset: 0,      // in pixels
+        //   verticalOffset: 0,        // in pixels
+        // }
         {
           id: 'tile-test',         // Recommended
-          lat: 45.5,  // Required
-          lng: -122,        // Required
-          content: '<img class="tile" src="/images/tile_3_3_2.png">',
-          layer: 'floatPane',       // Id of any of the layers defined in google.maps.MapPanes
-          verticalAlign: 'top',      // middle | bottom
-          horizontalAlign: 'left', // left | right
-          horizontalOffset: 50,      // in pixels
-          verticalOffset: 50,        // in pixels
-          // click: function(event, overlay) {},
-          // dblclick: function(event, overlay) {},
-          // mouseup: function(event, overlay) {},
-          // mousedown: function(event, overlay) {},
-          // mouseover: function(event, overlay) {},
-          // mousemove: function(event, overlay) {},
-          // mouseout: function(event, overlay) {}
+          lat: 55.75,  // Required
+          lng: -135,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_2_5.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 40.95,  // Required
+          lng: -135,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_2_6.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
         }
       ])
     });

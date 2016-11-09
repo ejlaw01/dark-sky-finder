@@ -24,6 +24,12 @@ button {
   margin-left: 50%;
 }
 
-.tile {
+.na-tile {
+  height: 2480px;
+  width: 3030px;
   opacity: 0.5;
+}
+
+.pnw-tile {
+  opacity: .3;
 }
