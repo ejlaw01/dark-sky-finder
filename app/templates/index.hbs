@@ -10,6 +10,7 @@
   {{new-location saveLocation="saveLocation"}}
 </div>
 <div class="location-display">
+  {{log model}}
   {{#each model as |location|}}
     {{location-tile location=location increaseScore="increaseScore" decreaseScore="decreaseScore"}}
   {{/each}}
