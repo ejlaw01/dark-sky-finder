@@ -1,7 +1,9 @@
 <h3>Great locations where you can stargaze:</h3>
-<h4>{{model.name}}</h4>
-<h5>{{model.description}}</h5>
+<h4>{{location.name}}</h4>
+<h5>{{location.description}}</h5>
 <div>
-  <img class="locationImage" src={{model.image}} alt={{model.name}}>
+  <img class="locationImage" src={{location.image}} alt={{location.name}}>
 </div>
-<h5>Rating: {{model.rating}}</h5>
+<h5>Rating: {{location.rating}}</h5>
+<button class="btn" {{action "increaseScore" location}}><span class="glyphicon glyphicon-triangle-top"></span></button>
+<button class="btn" {{action "decreaseScore" location}}><span class="glyphicon glyphicon-triangle-bottom"></span></button>
