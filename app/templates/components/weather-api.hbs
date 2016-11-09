@@ -1,13 +1,15 @@
 <div class="container">
-  <h3>Star Gazing Somwhere?</h3>
-  <div class="weather-api">
-    <form {{action 'getWeather' on='submit'}}>
-      <div class="form-group">
-        <label for="city">City:</label>
-        {{input value=city id='city' required='required' placeholder="Enter the closest city to your event"}}
-      </div>
-      <button class="btn weather-api-button">Submit</button>
-    </form>
+  <h3 class="weather-subtitle">Star Gazing Somwhere?</h3>
+  <div class="weather-input row">
+    <div class="col-lg-12">
+      <form {{action 'getWeather' on='submit'}}>
+        <div class="form-group">
+          <label for="city">City:</label>
+          {{input value=city id='city' required='required' placeholder="Enter the closest city to your event"}}
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
   </div>
   <div class="">
 
