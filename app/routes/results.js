@@ -6,7 +6,7 @@ export default Ember.Route.extend({
     var key = config.myApiKey;
     var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + params.city + '&appid=' + key;
     return Ember.$.getJSON(url).then(function(responseJSON) {
-      return responseJSON.weather;
-    });l
+      return responseJSON.main;
+    });
   }
 });
