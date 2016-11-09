@@ -25,6 +25,61 @@ export default Ember.Route.extend({
         // }
         {
           id: 'tile-test',         // Recommended
+          lat: 74.012,  // Required
+          lng: -180,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_0_3.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 66.505,  // Required
+          lng: -180,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_0_4.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 74.012,  // Required
+          lng: -157.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_1_3.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 66.505,  // Required
+          lng: -157.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_1_4.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 66.505,  // Required
+          lng: -135,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_2_4.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
           lat: 55.77,  // Required
           lng: -135,        // Required
           content: '<img class="pnw-tile" src="/images/tile_4_2_5.png">',
@@ -47,9 +102,9 @@ export default Ember.Route.extend({
         },
         {
           id: 'tile-test',         // Recommended
-          lat: 40.97,  // Required
+          lat: 66.505,  // Required
           lng: -112.5,        // Required
-          content: '<img class="pnw-tile" src="/images/tile_4_3_6.png">',
+          content: '<img class="pnw-tile" src="/images/tile_4_3_4.png">',
           layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
           verticalAlign: 'bottom',      // middle | bottom
           horizontalAlign: 'right', // left | right
@@ -61,6 +116,17 @@ export default Ember.Route.extend({
           lat: 55.77,  // Required
           lng: -112.5,        // Required
           content: '<img class="pnw-tile" src="/images/tile_4_3_5.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 40.97,  // Required
+          lng: -112.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_3_6.png">',
           layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
           verticalAlign: 'bottom',      // middle | bottom
           horizontalAlign: 'right', // left | right
