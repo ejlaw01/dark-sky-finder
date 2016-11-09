@@ -6,9 +6,12 @@
 
 <div class="weather">
 </div>
-
+<div class="add-location-display">
+  {{new-location saveLocation="saveLocation"}}
+</div>
 <div class="location-display">
+  {{log model}}
   {{#each model as |location|}}
-    {{location-tile model=location}}
+    {{location-tile location=location increaseScore="increaseScore" decreaseScore="decreaseScore"}}
   {{/each}}
 </div>
