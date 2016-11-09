@@ -1,12 +1,16 @@
+
 {{weather-api getWeather="getWeather"}}
 
-{{g-maps name="my-map" lat=lat lng=lng zoom=zoom}}
+{{g-maps name="my-map" lat=lat lng=lng zoom=zoom overlays=overlays scrollwheel=false}}
+
 
 <div class="weather">
 </div>
-
+<div class="add-location-display">
+  {{new-location saveLocation="saveLocation"}}
+</div>
 <div class="location-display">
   {{#each model as |location|}}
-    {{location-tile model=location}}
+    {{location-tile location=location increaseScore="increaseScore" decreaseScore="decreaseScore"}}
   {{/each}}
 </div>
