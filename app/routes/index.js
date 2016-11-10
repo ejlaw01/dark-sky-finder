@@ -135,6 +135,17 @@ export default Ember.Route.extend({
         },
         {
           id: 'tile-test',         // Recommended
+          lat: 21.92,  // Required
+          lng: -112.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_3_7.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
           lat: 66.505,  // Required
           lng: -90,        // Required
           content: '<img class="pnw-tile" src="/images/tile_4_4_4.png">',
@@ -166,6 +177,138 @@ export default Ember.Route.extend({
           horizontalOffset: 0,      // in pixels
           verticalOffset: 0,        // in pixels
         },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 21.92,  // Required
+          lng: -90,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_4_7.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -0.03,  // Required
+          lng: -90,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_4_8.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -21.97,  // Required
+          lng: -90,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_4_9.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -41,  // Required
+          lng: -90,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_4_10.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 40.97,  // Required
+          lng: -67.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_5_4.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 55.77,  // Required
+          lng: -67.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_5_5.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: 21.92,  // Required
+          lng: -67.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_5_7.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -0.03,  // Required
+          lng: -67.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_5_8.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -21.97,  // Required
+          lng: -67.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_5_9.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -41,  // Required
+          lng: -67.5,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_5_10.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -0.03,  // Required
+          lng: -45,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_6_8.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        },
+        {
+          id: 'tile-test',         // Recommended
+          lat: -21.97,  // Required
+          lng: -45,        // Required
+          content: '<img class="pnw-tile" src="/images/tile_4_6_9.png">',
+          layer: 'overlayLayer',       // Id of any of the layers defined in google.maps.MapPanes
+          verticalAlign: 'bottom',      // middle | bottom
+          horizontalAlign: 'right', // left | right
+          horizontalOffset: 0,      // in pixels
+          verticalOffset: 0,        // in pixels
+        }
       ])
     });
   },
