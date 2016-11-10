@@ -1,10 +1,12 @@
-<ul>
-  <h2>Current Weather</h2>
-  <li>Temperature: {{model.temp}}&deg;</li>
-  <li>Low: {{model.temp_min}}&deg;</li>
-  <li>High: {{model.temp_max}}&deg;</li>
-  <li>Pressure: {{model.pressure}}</li>
-  <li>Humidity: {{model.humidity}}&percnt;</li>
-</ul>
+<div class="results">
+  <ul>
+    <h2>Current Weather</h2>
+    <li>Temperature: {{model.temp}}&deg;</li>
+    <li>Low: {{model.temp_min}}&deg;</li>
+    <li>High: {{model.temp_max}}&deg;</li>
+    <li>Pressure: {{model.pressure}}</li>
+    <li>Humidity: {{model.humidity}}&percnt;</li>
+  </ul>
+</div>
 
 {{#link-to 'index'}}<h3 class="navigation">Home</h3>{{/link-to}}
