@@ -1,12 +1,10 @@
 <ul>
   <h2>Current Weather</h2>
-  {{#each model as |city|}}
-  <li>{{city.temp}}</li>
-  <!-- <li>{{city.pressure}}</li>
-  <li>{{city.humidity}}</li>
-  <li>{{city.temp_min}}</li>
-  <li>{{city.temp_max}}</li> -->
-  {{/each}}
+  <li>Temperature: {{model.temp}}&deg;</li>
+  <li>Low: {{model.temp_min}}&deg;</li>
+  <li>High: {{model.temp_max}}&deg;</li>
+  <li>Pressure: {{model.pressure}}</li>
+  <li>Humidity: {{model.humidity}}&percnt;</li>
 </ul>
 
-{{#link-to 'index'}}Home{{/link-to}}
+{{#link-to 'index'}}<h3 class="navigation">Home</h3>{{/link-to}}

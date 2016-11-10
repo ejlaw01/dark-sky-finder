@@ -19,7 +19,7 @@ h1,h3 {
   font-size: 4em;
 }
 
-h2,h4,h5,h6,p,label {
+h2,h4,h5,h6,p,label,li {
   font-family: 'Raleway', sans-serif;
   color: #fff;
 }
@@ -28,12 +28,27 @@ h3 {
   font-size: 3em;
 }
 
+<<<<<<< HEAD
+=======
+li {
+  font-size: 1em;
+}
+
+label {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+input {
+  padding: 8px 20px 8px 0px;
+}
+
 .page {
   margin: 30px;
 }
 
 .ember-cli-g-map {
-  height: 80vh;
+  height: 65vh;
   width:90vw;
   margin: 20px 30px 20px 30px;
 }
@@ -69,4 +84,114 @@ margin-left: 80%;
 .weather-subtitle {
   margin-left: 27%;
   margin-bottom: 40px;
+}
+
+.weather-button {
+  margin-left: 53%;
+}
+
+.navigation {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.navigation:hover {
+  color: wheat;
+}
+
+/*Media Queries*/
+@media only screen and (max-width:2560px) {
+  .weather-subtitle {
+    margin-left: 20%;
+    margin-bottom: 60px;
+  }
+
+  .weather-input {
+    margin-left: 80%;
+  }
+
+  .weather-button {
+    margin-left: 65%;
+  }
+}
+
+@media only screen and (max-width:1240px) {
+  .weather-subtitle {
+    margin-left: 30%;
+    margin-bottom: 60px;
+  }
+
+  .weather-input {
+    margin-left: 75%;
+  }
+
+  .weather-button {
+    margin-left: 52%;
+  }
+}
+
+@media only screen and (max-width:1199px) {
+  .weather-subtitle {
+    margin-left: 26%;
+    margin-bottom: 60px;
+  }
+
+  .weather-input {
+    margin-left: 70%;
+  }
+
+  .weather-button {
+    margin-left: 53%;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .weather-subtitle {
+    margin-left: 20%;
+    margin-bottom: 60px;
+  }
+
+  .weather-input {
+    margin-left: 35%;
+  }
+
+  .weather-button {
+    margin-left: 32%;
+  }
+}
+
+@media only screen and (max-width:667px) {
+  .weather-subtitle {
+    margin-left: 30%;
+    margin-bottom: 60px;
+  }
+
+  .weather-input {
+    margin-left: 30%;
+  }
+
+  .weather-button {
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width:568px) {
+  .weather-subtitle {
+    margin-left: 23%;
+    margin-bottom: 60px;
+  }
+
+  .weather-input {
+    margin-left: 24%;
+  }
+
+  .weather-button {
+    margin-left: 28%;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .weather-button {
+    margin-left: 34%;
+  }
 }
